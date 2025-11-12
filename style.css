@@ -1,0 +1,15 @@
+.container {
+
+    width: 800px;
+    margin: auto;
+
+}
+
+.fondnoir{
+    background-color: black;
+}
+
+.flex{
+color: brown;
+    display: flex;
+}
