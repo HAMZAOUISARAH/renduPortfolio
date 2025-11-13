@@ -1,3 +1,7 @@
+/* general */
+* {
+    box-sizing: border-box;
+}
 .container {
 
     width: 900px;
@@ -9,16 +13,21 @@
     background-color: black;
 }
 
+.textwhite {
+    color: white;
+}
+
+/* les differents flex  */
 .flex {
 
-     display: flex;
+    display: flex;
     align-items: center;
     gap: 80px;
     padding: 50px 50px;
     font-style: normal;
     font-size: small;
 
-    
+
 }
 
 .flexBetween {
@@ -27,9 +36,30 @@
     justify-content: space-between;
 }
 
+.flexlogo {
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+    justify-content: center;
+
+
+}
+
+.flexwrap {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+
+/* la nav */
 nav {
 
-padding: 20px 0;
+    padding: 20px 0;
 
     a {
         color: white;
@@ -38,44 +68,74 @@ padding: 20px 0;
     }
 }
 
-.textwhite{
+.textwhite {
     color: white;
 }
+
 .bouton {
     background-color: white;
-    padding : 20px;
+    padding: 20px;
     border-radius: 5px;
     display: inline-block;
     color: black;
     text-decoration: none;
 }
 
-h2{
+h2 {
     text-align: center;
-}
-
-div{
-text-align: -webkit-center;
 }
 
 
 .img {
     img {
-        width: 200px
+        width: 100%;
     }
-    
+
 }
 
-.flexlogo{
-
-     display: flex;
-    align-items: center;
-    gap: 100px;
-padding: 50px 50px;
-
-   
+.card {
+    width: 285px;
 }
-.flexwrap {
 
+/* maintenant temoignage clients */
+
+.fondgris {
+    padding: 32px;
+    background-color: #f3f3f3;
+    width: 285px;
+}
+
+
+.imgavis {
+
+    border-radius: 50%;
+}
+.textefooter{
+    width: 50%;
+}
+
+.gap{
+    gap: 50px; 
+}
+
+.flexcollum{
+    width: 500px;
     display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 5px;
 }
+
+input{
+    width: 300px;
+}
+button{
+    width: 300px;
+}
+footer{
+    height: 50vh;
+}
+head{
+    height: 60vh
+}
+
