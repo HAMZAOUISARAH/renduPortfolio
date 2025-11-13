@@ -1,15 +1,81 @@
 .container {
 
-    width: 800px;
+    width: 900px;
     margin: auto;
 
 }
 
-.fondnoir{
+.fondnoir {
     background-color: black;
 }
 
-.flex{
-color: brown;
+.flex {
+
+     display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 50px 50px;
+    font-style: normal;
+    font-size: small;
+
+    
+}
+
+.flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+
+padding: 20px 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding-right: 20px;
+    }
+}
+
+.textwhite{
+    color: white;
+}
+.bouton {
+    background-color: white;
+    padding : 20px;
+    border-radius: 5px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+div{
+text-align: -webkit-center;
+}
+
+
+.img {
+    img {
+        width: 200px
+    }
+    
+}
+
+.flexlogo{
+
+     display: flex;
+    align-items: center;
+    gap: 100px;
+padding: 50px 50px;
+
+   
+}
+.flexwrap {
+
     display: flex;
 }
