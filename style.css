@@ -136,6 +136,11 @@ footer{
     height: 50vh;
 }
 head{
-    height: 60vh
+    height: 60vh;
 }
 
+a{
+    font-family: auto;
+    font-size: xx-large;
+    font-family: serif;
+}
